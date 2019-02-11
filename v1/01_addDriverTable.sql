@@ -1,0 +1,8 @@
+CONNECT TOM/EdmoDocker123@//localhost:1521/ROADTRIP;
+-- Create starter set
+CREATE TABLE DRIVERS(name VARCHAR2(10));
+INSERT INTO DRIVERS (name) VALUES ('John');
+INSERT INTO DRIVERS (name) VALUES ('Steven');
+INSERT INTO DRIVERS (name) VALUES ('Jimmy');
+COMMIT;
+exit;
